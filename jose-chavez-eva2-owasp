@@ -1,15 +1,85 @@
 ¿Qué es OWASP y cuál es su principal objetivo? (3 pts)
+Es una organizacion a nivel mundial centrada en mejorar la seguridad del software. Su misión es hacer que la seguridad del software
+sea visible, para que las personas y las organizaciones puedan tomar decisiones informadas. 
+Esta dedicada a permitir que las organizaciones desarrollen, adquieran y
+mantengan aplicaciones en las que se pueda confiar.  
 
 ¿Qué es el OWASP Top 10 y por qué es importante para los desarrolladores? (4 pts)
+El OWASP Top 10 es un documento que describen los diez riegos de seguridad más relaventas en aplicaciones web segun la organización OWASP. 
+Este listado tiene como objetivo concienciar a los desarrolladores, arquitectos de software, administradores de sistemas y 
+otros profesionales de la seguridad sobre los riesgos más comunes que enfrentan las aplicaciones web.
+El OWASP Top 10 es fundamental para que los desarrolladores comprendan los riesgos más comunes en la seguridad de aplicaciones y puedan 
+implementar medidas preventivas adecuadas. Al seguir este listado, no solo mejoran la seguridad de sus aplicaciones, sino que también 
+reducen la probabilidad de enfrentar fallos de seguridad costosos y dañinos para la organización y sus usuarios.
 
 Describe brevemente dos de las vulnerabilidades del OWASP Top 10 2017. (4 pts)
+1. A1: Inyección (Injection)
+La inyección ocurre cuando un atacante introduce o "inyecta" código malicioso en una aplicación, lo que puede permitirle ejecutar 
+comandos no autorizados. Un ejemplo clásico es la inyección SQL, donde un atacante puede manipular consultas SQL en una base de datos 
+para obtener información confidencial, eliminar datos o modificar el comportamiento de la base de datos. 
+Esto generalmente ocurre cuando las entradas del usuario no se validan o filtran correctamente.
+2. A3: Exposición de datos sensibles (Sensitive Data Exposure)
+La exposición de datos sensibles ocurre cuando una aplicación no protege adecuadamente la información confidencial durante su 
+almacenamiento o transmisión. Esto puede permitir a los atacantes robar o interceptar datos, especialmente si no están cifrados 
+adecuadamente.
 
 ¿Qué es OWASP ASVS y cuáles son sus niveles de verificación? (4 pts)
+El OWASP ASVS (Application Security Verification Standard) es un marco de trabajo de verificación de seguridad para aplicaciones web. 
+Su objetivo es proporcionar un conjunto de requisitos de seguridad que pueden ser utilizados para evaluar el nivel de seguridad de 
+una aplicación durante el ciclo de vida del desarrollo. El ASVS ofrece una guía completa para realizar pruebas de seguridad en 
+aplicaciones web y ayuda a los equipos de desarrollo y seguridad a identificar posibles vulnerabilidades y mejorar la seguridad en la 
+fase de diseño y desarrollo.
+
+Niveles de verificación del OWASP ASVS:
+Nivel 1: Oportunista
+Este nivel cubre requisitos de seguridad mínimos que deberían ser aplicados en todas las aplicaciones web.Es adecuado para aplicaciones 
+que no manejan datos sensibles o críticos. El objetivo es garantizar que la aplicación tenga medidas de seguridad básicas para protegerse 
+de amenazas comunes. Este nivel es recomendado para aplicaciones con bajo riesgo y es adecuado para aplicaciones web generales o 
+aplicaciones públicas que no manejan información sensible.
+Nivel 2: Estándar
+Este nivel cubre requisitos más robustos, adecuados para aplicaciones que manejan datos sensibles, como información personal, credenciales,
+o datos financieros. En este nivel, se exigen prácticas más avanzadas de seguridad para mitigar riesgos más específicos y 
+asegurar la confidencialidad, integridad y disponibilidad de los datos. Este nivel es apropiado para aplicaciones empresariales o 
+aplicaciones que manejan datos personales, pagos o información confidencial.
+Nivel 3: Avanzado
+Este es el nivel más alto de verificación, diseñado para aplicaciones de alto riesgo, como aquellas que manejan datos extremadamente 
+sensibles (por ejemplo, aplicaciones bancarias, de salud o gubernamentales). Los requisitos incluyen medidas de seguridad avanzadas y 
+pruebas exhaustivas para identificar cualquier vulnerabilidad crítica. Este nivel es recomendado para aplicaciones con alto riesgo que 
+manejan datos extremadamente sensibles o críticas de misión.
 
 ¿Cuál es la diferencia entre los niveles 1 y 3 de OWASP ASVS? (4 pts)
+Nivel 1 cubre las medidas de seguridad básicas necesarias para proteger aplicaciones de bajo riesgo, ideal para aplicaciones comunes 
+que no manejan datos sensibles.
+Nivel 3 exige medidas de seguridad avanzadas y un enfoque mucho más riguroso para proteger aplicaciones de alto riesgo, con técnicas 
+como pruebas de penetración, cifrado de extremo a extremo y una mayor atención a la gestión de identidades y acceso.
+
+El Nivel 3 es esencial para aplicaciones que deben cumplir con estándares de seguridad muy altos, mientras que el Nivel 1 es adecuado 
+para aquellas que no manejan información crítica o altamente confidencial.
 
 ¿Qué es el modelado de amenazas y cuáles son sus beneficios? (4 pts)
+El modelado de amenazas es una parte esencial del ciclo de vida de desarrollo seguro de Microsoft (SDL). Se trata de una técnica 
+de ingeniería que ayuda a identificar posibles amenazas, ataques, vulnerabilidades y medidas de mitigación que podrían impactar en su 
+aplicación. Con el modelado de amenazas, puede orientar el diseño de su aplicación, cumplir con los requisitos de seguridad de su 
+organización y minimizar los riesgos asociados.
 
 Nombra dos metodologías de modelado de amenazas. (3 pts)
+STRIDE: (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and
+Elevation of Privilege) es una metodología de modelado de amenazas de Microsoft,
+comúnmente conocida como STRIDE, que tiene como enfoque principal ayudar a
+garantizar que los desarrolladores de software de Windows de Microsoft piensen en la
+seguridad durante la fase de diseño.
+2. DREAD: (Damage potential, Reproducibililty, Exploitability, Affected users, Discoverability)
+Es un modelo que se basa en puntuación, primeramente, hay que tener identificada la lista
+de amenazas, para luego puntuarlas de acuerdo con el riesgo que suponen, y de esta
+manera priorizar las actuaciones a efectuar para mitigar el riesgo.
 
 ¿Qué es el SDL y cómo ayuda a la seguridad del software? (4 pts)
+
+El SDL (Ciclo de Vida de Desarrollo Seguro) es un enfoque para el desarrollo de software que incorpora prácticas de seguridad en cada una 
+de las fases del proceso, desde la concepción del diseño 
+hasta la implementación y mantenimiento. Este modelo fue creado por Microsoft con el fin de fortalecer la seguridad de las aplicaciones 
+y reducir la exposición a vulnerabilidades que los atacantes podrían aprovechar.
+
+El objetivo del SDL es asegurar que las consideraciones de seguridad se aborden de forma integral en todo el ciclo de vida del desarrollo, 
+ofreciendo una metodología clara para prevenir, identificar y mitigar los riesgos de seguridad. Esto ayuda a garantizar que las 
+aplicaciones sean más seguras y menos propensas a ser vulneradas.
