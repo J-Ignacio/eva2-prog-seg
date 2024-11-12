@@ -1,1 +1,39 @@
+¿Cuáles son los tres pilares de la seguridad informática y qué significan? (3 puntos)
+Los tres pilares fundamentales de la seguridad informática son conocidos como la Confidencialidad, la Integridad y la Disponibilidad.
+Confidencialidad: se refiere a la protección de la información sensible o privada para que solo las personas o sistemas autorizados puedan acceder a ella. 
+El objetivo de la confidencialidad es prevenir el acceso no autorizado a los datos, asegurando que no caigan en manos equivocadas y que se mantengan privados y
+protegidos.
 
+Integridad: se refiere a la garantía de que los datos y la información no han sido alterados o modificados de manera no autorizada, ya sea de formaaccidental. o 
+maliciosa. La integridad asegura que la información mantiene su exactitud y completitud a lo largo de su ciclo de vida, desde su creación hasta su almacenamiento y 
+transmisión.
+
+Disponibilidad: la disponibilidad se refiere a garantizar que los sistemas, servicios, aplicaciones y datos estén accesibles y operativos para los usuarios 
+autorizados cuando lo necesiten, sin interrupciones no deseadas. La idea es asegurar que los recursos informáticos sean funcionales y estén disponibles en 
+todo momento, siempre que sea necesario para su uso legítimo. 
+
+¿Qué diferencia hay entre datos e información? (1 punto)
+La diferencia entre datos e información sigue el mismo principio básico, pero tiene un enfoque específico relacionado con el manejo, la protección y 
+el procesamiento de ambos conceptos en el contexto de la protección de sistemas, redes y datos sensibles. En este contexto, 
+los datos son simplemente hechos crudos que no han sido procesados ​​ni organizados de manera que tengan un significado 
+claro o utilitario. Son entradas sin interpretar que pueden ser recopiladas, almacenadas** o transmitidas sin un contexto claro de lo que representan. 
+
+Describa una medida para garantizar la confidencialidad. (2 puntos)
+Una medida clave para garantizar la confidencialidad en seguridad informática es el cifrado de datos. El cifrado es el proceso de convertir los datos en un 
+formato ilegible utilizando un algoritmo y una clave de cifrado. Solo aquellas personas o sistemas que tengan la clave de descifrado adecuada pueden convertir 
+los datos cifrados nuevamente a su formato original y legible. 
+
+¿Por qué es importante la integridad de la información? (2 puntos)
+La integridad de la información es un aspecto fundamental en seguridad informática porque garantiza que los datos y la información se mantienen 
+correctos, completos y sin alteraciones no autorizadas a lo largo de su ciclo de vida. , desde su creación hasta su almacenamiento y transmisión. Asegurar 
+la integridad de la información es crucial por varias razones, ya que afecta directamente a la fiabilidad, precisión y seguridad de los sistemas y
+las decisiones basadas en los datos.  La integridad asegura que los datos no sean modificados de manera intencional o accidental por personas no autorizadas. 
+Un atacante podría alterar los datos con el fin de engañar, robar o dañar el sistema.
+
+Mencione un ejemplo de cómo se puede ver afectada la disponibilidad de la información. (2 puntos)
+Un ejemplo claro de cómo se puede ver afectada la disponibilidad de la información en seguridad informática es el ataque de ransomware. 
+En un ataque de ransomware, los ciberdelincuentes bloquean o cifran los archivos de un sistema o red, haciendo que los 
+datos sean inaccesibles para el usuario legítimo. Los atacantes exigen un rescate (generalmente en criptomonedas) un cambio de proporcionar la clave 
+para descifrar los archivos o devolver el acceso. Los archivos de una organización o usuario
+(documentos, bases de datos, correos electrónicos, imágenes, etc.) se cifran de manera que no pueden ser abiertos ni utilizados sin la clave de descifrado, 
+bloqueando el acceso a la información crítica. 
