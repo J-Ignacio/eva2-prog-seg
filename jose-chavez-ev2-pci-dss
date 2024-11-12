@@ -1,1 +1,36 @@
+¿Qué significa PCI DSS y cuál es su propósito principal? (3 puntos)
+PCI DSS (Payment Card Industry Data Security Standard) es un conjunto de normas de seguridad desarrollado para proteger la información de tarjetas de pago
+(como las de crédito y débito) y garantizar que las empresas que procesan, almacenan o transmiten datos de tarjetas de pago lo hagan de manera segura. El propósito
+principal de PCI DSS es garantizar la seguridad de los datos de los titulares de tarjetas y proteger esa información contra el acceso no autorizado, el robo y el 
+fraude, al establecer un conjunto de requisitos de seguridad que deben seguir las organizaciones que manejan datos de tarjetas de pago.
 
+¿A qué tipo de empresas afecta PCI DSS? (2 puntos)
+PCI DSS (Payment Card Industry Data Security Standard) afecta a todas las empresas que almacenan, procesan o transmiten datos de tarjetas de pago 
+(como tarjetas de crédito o débito). Esto incluye una amplia gama de organizaciones , independientemente de su tamaño o volumen de transacciones.
+
+Mencione tres ejemplos de datos que PCI DSS busca proteger. (2 puntos)
+PCI DSS se enfoca en proteger los siguientes tipos de datos sensibles :
+PAN (Número de tarjeta)
+CVC/CVV (Código de seguridad)
+Fecha de vencimiento
+
+¿Por qué es importante la certificación PCI DSS para las empresas? (1 punto)
+
+
+Describa brevemente tres de los doce requisitos de PCI DSS.(2 puntos)
+
+Instalar y mantener un cortafuegos: Instalar y mantener un cortafuegos es un pilar fundamental en la seguridad informática. Protege las redes de los ataques 
+cibernéticos, ayuda a cumplir con regulaciones de seguridad (como PCI DSS), y garantiza la confidencialidad, integridad y disponibilidad de los datos. Además, 
+el monitoreo constante y la actualización de las reglas y configuraciones son esenciales para mantener la eficacia del cortafuegos a medida que surgen nuevas 
+amenazas.
+
+No utilizar configuraciones predeterminadas de los proveedores: No utilizar configuraciones predeterminadas de los proveedores es un principio crucial en la 
+seguridad informática, ya que las configuraciones predeterminadas son ampliamente conocidas y, por lo tanto, son un objetivo común para los atacantes. Asegurarse 
+de que todos los sistemas, aplicaciones y dispositivos estén configurados de forma segura, con contraseñas fuertes, puertos cerrados y servicios innecesarios 
+deshabilitados, es esencial para proteger la infraestructura de TI de las empresas y garantizar la confidencialidad, integridad y disponibilidad de los datos.
+
+Proteger los datos almacenados: Proteger los datos almacenados es esencial para asegurar la confidencialidad, integridad y disponibilidad de la información 
+dentro de una organización. Al implementar medidas como el cifrado de datos, controles de acceso, políticas de seguridad, y prácticas de auditoría y destrucción 
+de datos, las empresas pueden reducir significativamente el riesgo de exposición de datos sensibles, proteger la privacidad de sus usuarios y cumplir con las 
+normativas de seguridad vigentes. Además, con el aumento de las amenazas cibernéticas, la protección de datos debe ser una prioridad constante dentro de cualquier 
+estrategia de seguridad informática.
