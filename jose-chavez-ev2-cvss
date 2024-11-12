@@ -1,1 +1,153 @@
+Definir vulnerabilidad, amenaza y riesgo en el contexto de la seguridad informática. (2)
+Vunerabilidad: En el campo de la seguridad informática se considera como vulnerabilidad a
+cualquier debilidad o fallo en un sistema de información que pone en riesgo la
+seguridad de los datos y, por tanto, la información. Esta debilidad o falla puede
+permitir que un agente atacante pueda comprometer la integridad, disponibilidad o
+confidencialidad de la información y es muy importante corregir cualquier vulnerabilidad, porque
+constituye un peligro potencial para la estabilidad y seguridad del sistema en general.
 
+Amenaza: Las amenazas se conocen como la o las acciones que aprovecha una vulnerabilidad
+(falla) para atentar con la seguridad de un sistema de información, y a su vez puede
+tener un efecto negativo en la organización dependiendo del tipo de ataque y
+amenaza, pasiva o activa.
+
+Riesgo: El riesgo, en términos concretos, es una medida de la probabilidad de que se
+materialice una amenaza o un incidente de seguridad, por tener una eventual vulnerabilidad en la aplicación, causando
+perdida de información y atenta totalmente la triada de seguridad.
+Entonces cuando tenemos una o varias vulnerabilidades en un sistema o en una plataforma y
+además la amenaza o agentes de amenaza, ya sea en la empresa o en la red (ejemplo hacker
+sobrero negro,) tenemos el riego que suceda o se materialice un incidente de seguridad y ocasionar
+pérdidas materiales o de datos a la empresa u organización.
+
+¿Qué es CVE y cuál es su propósito? (1)
+CVE (Common Vulnerabilities and Exposures) es un sistema de nomenclatura estándar utilizado para identificar y catalogar vulnerabilidades de seguridad 
+conocidas en software y sistemas. Fue creado para proporcionar un punto de referencia común a nivel global para todas las vulnerabilidades, de modo que los 
+profesionales de la seguridad, investigadores, desarrolladores y administradores de sistemas puedan comunicarse de manera más eficiente sobre las amenazas y 
+gestionar los parches o soluciones adecuadas. El CVE tiene como propósito propiciar la distribución de datos en bases de datos de
+vulnerabilidades y herramientas de seguridad separadas y en gran medida facilita la búsqueda de
+información.
+
+Mencione tres ventajas del uso de CVE. (1)
+- Ayuda a tener una plataforma para reconocer vulnerabilidades conocidas.
+- Puede ayudar a diferenciar las vulnerabilidades y referirse a ellas, con sus
+diferencias.
+- Se encuentra en constante actualización de la base de datos de la lista, lo que
+posibilita ir además monitoreando cambios o actualizaciones.
+
+¿Qué es CVSS y para qué se utiliza? (1)
+En cuanto a la seguridad en una aplicación web o a la seguridad de la información en general en
+un software, una vulnerabilidad es aquella falla o debilidad que se encuentra en una plataforma y
+que puede ser explotada por una o más amenazas, lo que a su vez puede derivar en un riesgo de
+seguridad para la organización.
+Cuando se habla de seguridad, los conocimientos se enfocan en reducir el riesgo al nivel que sea
+más aceptable, por lo que se recurre a actividades que puedan llegar a identificar y evaluar las
+debilidades asociadas a las plataformas de software y hardware, con la finalidad de evitar la
+materialización de eventos indeseados.
+
+Describe los tres grupos métricos del CVSS. (1)
+Grupo Métrico Base
+Este grupo representan las características intrínsecas a la vulnerabilidad, que son constantes en el
+tiempo, o sea, no cambian. Este grupo incluyen las métricas de vector de acceso, complejidad de
+acceso y autenticación.
+Cada uno de los impactos se determina de manera independiente, así como su grado de pérdida
+de la triada de la seguridad, es decir, pérdida de la confidencialidad, integridad y disponibilidad.
+La métrica base está compuesta por distintos elementos, como el vector de acceso; el cual
+proporciona información sobre la ubicación del atacante en el instante de llevar a cabo la
+explotación, es decir, Local (Misma máquina), si es en red LAN (desde la misma red) o Remoto
+(Desde Internet). Además, se verifica la complejidad de acceso, que se clasifican en alta, media o
+baja. Esta última refiere cuando una configuración por defecto y el elemento de la autenticación
+Programación segura / Programación segura para desarrollo - OWASP 9
+indica lo siguiente, ninguna (cuando no se requiere ninguna autenticación para explotar la
+vulnerabilidad), simple o múltiple. 
+
+Grupo Métrico Temporal
+Las métricas temporales representan las características de una vulnerabilidad que pueden cambiar
+en el tiempo, a diferencia del grupo de métricas base, pero que son constantes en el ambiente de
+un usuario.
+Debido a que los riesgos planteados por una vulnerabilidad pueden cambiar a lo largo del tiempo,
+por lo que se consideran 3 factores que intervienen en ello:
+- Confirmación de los detalles técnicos de la vulnerabilidad (explotabilidad)
+- El nivel de remediación
+- El reporte de confianza, referido a la disponibilidad del código o técnicas que permitan
+la explotación.
+El grupo de métrica temporal es opcional, y para poder calcularla se debe generar la base con
+anterioridad.
+
+Grupo de Métrica de ambiente o entorno
+Las métricas de entorno corresponden al tercer grupo y representan las características de una
+vulnerabilidad, que es única y relevante para el entorno de un usuario en particular.
+Este grupo:
+- Se definen debido a los distintos ambientes que pueden denotar una gran influencia sobre
+el riesgo que representa una vulnerabilidad para una organización.
+- Define el número de equipos afectados, en otras palabras, si los equipos vulnerables son
+elevados o son casos bajos.
+- Incluyen el daño potencial colateral, distribución de objetivos y los requisitos de
+confidencialidad, integridad y disponibilidad.
+El sistema métrico en general se realiza por medio de unas fórmulas que definen cada grupo, y
+para realizarlo se puede utilizar la base de datos y la calculadora del sistema de puntuación de
+vulnerabilidad del Instituto Nacional de Estándares y Tecnología (NIST por sus siglas en inglés,
+National Institute of Standards and Technology), y de esta manera, realizar la ponderación con la
+que se obtiene una puntuación exacta. 
+
+Explica el concepto de "componentes con vulnerabilidades conocidas" (OWASP A9:2017). (1)
+Los componentes como bibliotecas, frameworks y otros módulos se ejecutan con los mismos
+privilegios que la aplicación. Si se explota un componente vulnerable, el ataque puede provocar
+una pérdida de datos o tomar el control del servidor. Las aplicaciones y API que utilizan
+componentes con vulnerabilidades conocidas pueden debilitar las defensas de las aplicaciones y
+permitir diversos ataques e impactos.
+
+¿Qué es la encriptación y cuál es su objetivo? (1)
+
+La encriptación es un proceso que transforma información o datos legibles (como texto, imágenes o archivos) en un formato ilegible mediante el uso de 
+algoritmos y una clave secreta. Este proceso asegura que solo las personas o sistemas autorizados, que posean la clave adecuada, puedan volver a convertir esa 
+información en su formato original (desencriptarla). El principal objetivo de la encriptación es proteger 
+la privacidad de la información. Al encriptar los datos, se evita que personas no autorizadas puedan leerlos, incluso si interceptan la comunicación o tienen 
+acceso a los archivos. 
+
+¿Qué significan las siglas SOAP, WS y XML? (1)
+- SOAP: (Simple Object Access Protocol), es un protocolo creado por Microsoft, IBM y otros, que
+actualmente es uno de los protocolos utilizados en los servicios Web. Este protocolo es bastante
+robusto, sirve para intercambiar información, además soporta elementos de validación de
+mensajes, seguridad, los cuales se pueden usar por medio de HTTP, SMTP, TCP y JMS, o sea,
+por internet, por correos electrónicos, protocolos entre clientes servidor, entre otros.
+
+- WS: (web service o web services), el significado de Servicios Web, lo cual se puede definir
+como una tecnología que se basa en un conjunto de protocolos y estándares por los cuales se
+intercambian datos entre aplicaciones.
+
+- XML: “proviene de eXtensible Markup Language (“Lenguaje de Marcas Extensible”). Se trata de
+un metalenguaje (un lenguaje que se utiliza para decir algo acerca de otro) extensible de
+etiquetas que fue desarrollado por el Word Wide Web Consortium (W3C), una sociedad
+mercantil internacional que elabora recomendaciones para la World Wide Web.”
+(Definición.de, 2020)
+
+¿Qué es hardening y cómo se relaciona con la seguridad de sistemas? (2)
+El hardening (o endurecimiento de seguridad) es un proceso mediante el cual se refuerzan y protegen los sistemas informáticos (como servidores, aplicaciones, 
+redes o dispositivos) para reducir sus vulnerabilidades y minimizar los riesgos de ciberataques. Este proceso implica configurar y ajustar de manera adecuada los 
+componentes del sistema, eliminando o deshabilitando funciones innecesarias y aplicando las mejores prácticas de seguridad. 
+
+Describe 2 acciones comunes de endurecimiento. (2)
+
+
+¿Qué es un CAPTCHA y cuál es su función? (1)
+Un CAPTCHA (Completely Automated Public Turing test to tell
+Computers and Humans Apart), es un tipo de medida de
+seguridad conocido como autenticación pregunta-respuesta. Un
+CAPTCHA brinda protección ante el spam y del descifrado de
+contraseñas, completando una simple prueba o test que
+demuestre que es un ser humano y no un ordenador quien intenta
+acceder a una cuenta protegida con contraseña. El CAPTACHA es
+aquello que testea de tal forma de comprobar que es un ser
+humano el que está utilizando la página o aplicación y no una
+máquina, y ¿cuál es la finalidad o por qué debemos hacer esto?,
+para evitar que bots o automatismos sean los que interactúen con
+la plataforma. Para la verificación con CAPTCHAS se debe
+reconocer letras en oportunidades garabateadas, o imágenes, y
+seleccionarlas en pocos minutos.
+
+¿Qué se entiende por "autenticación robusta centralizada"? (2)
+La autenticación robusta y centralizada son aquellos certificados asociados a mecanismos de
+seguridad para controlar y gestionar el uso de la plataforma y están asentados en distintos niveles
+de protección, y se basa, principalmente, en algo que tiene el usuario, algo que sabe o algo
+inherente a la persona. A estos procedimientos de identificación se les conoce como factores de
+autenticación. 
