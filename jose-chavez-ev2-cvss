@@ -128,6 +128,18 @@ componentes del sistema, eliminando o deshabilitando funciones innecesarias y ap
 
 Describe 2 acciones comunes de endurecimiento. (2)
 
+Reforzar la configuración de acceso y permisos
+Principio de mínimo privilegio: Configurar los permisos de manera que los usuarios y aplicaciones solo tengan acceso a los recursos necesarios para
+realizar su trabajo. No dar privilegios elevados a usuarios que no lo necesiten.
+Revisión de permisos: Realizar auditorías periódicas para asegurarse de que las cuentas de usuario y los permisos sean adecuados.
+Deshabilitar cuentas por defecto: Las cuentas preconfiguradas (como las cuentas de administrador) pueden ser objetivo de los atacantes, por lo que
+deben ser deshabilitadas o renombradas.
+
+Activar y configurar auditorías y registros de seguridad
+Habilitar registros de auditoría: Asegurarse de que todas las actividades del sistema, como los inicios de sesión, intentos fallidos y cambios en la 
+configuración, se registren.
+Monitoreo de registros: Implementar soluciones de monitoreo de registros para detectar actividades inusuales que puedan indicar un intento de intrusión.
+Almacenamiento seguro de registros: Los registros deben almacenarse de forma segura, de modo que no puedan ser alterados por usuarios malintencionados.
 
 ¿Qué es un CAPTCHA y cuál es su función? (1)
 Un CAPTCHA (Completely Automated Public Turing test to tell
